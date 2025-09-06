@@ -34,7 +34,9 @@ Di root project:
 ```
 node apps/discord-bot/index.js
 ```
-Bot akan aktif di Discord. Gunakan prefix `!chat` (misalnya: `!chat I feel sad`) untuk trigger.
+
+Kemudian, akses [link](https://discord.com/oauth2/authorize?client_id=1413427196151988285&permissions=67584&integration_type=0&scope=bot) ini untuk menambahkan bot pada server yang anda inginkan
+Bot akan aktif di Discord. Kemudian, gunakan prefix `!chat` (misalnya: `!chat I feel sad`) untuk trigger.
 
 ## Demo
 Contoh percakapan di Discord:
