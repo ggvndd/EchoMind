@@ -1,52 +1,28 @@
-// apps/discord-bot/index.js
+// Discord integration for the core bot
 
-require('dotenv').config();
 const { Client, GatewayIntentBits } = require('discord.js');
-const { getBotResponse } = require('../../packages/bot-engine/lib/bot');
-const fs = require('fs');
-const path = require('path');
-
-const TOKEN = process.env.DISCORD_TOKEN;
-const LOG_FILE = path.join(__dirname, '../../logs/bot.log');
-const DATA_DIR = path.join(__dirname, '../../data');
-
-// Pastikan direktori data ada sebelum bot berjalan
-if (!fs.existsSync(DATA_DIR)) {
-    fs.mkdirSync(DATA_DIR);
-}
+const { getResponse } = require('../../packages/bot-engine/lib/bot'); // Path relatif ke core bot
+require('dotenv').config();
 
 const client = new Client({
-    intents: [
-        GatewayIntentBits.Guilds,
-        GatewayIntentBits.GuildMessages,
-        GatewayIntentBits.MessageContent
-    ]
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.MessageContent
+  ]
 });
 
 client.on('ready', () => {
-    console.log(`Bot Discord siap! Logged in sebagai ${client.user.tag}`);
-    logMessage(`Bot Discord siap!`);
+  console.log(`Logged in as ${client.user.tag}!`);
 });
 
 client.on('messageCreate', (message) => {
-    if (message.author.bot) return;
-
-    console.log(`Pesan dari ${message.author.username}: ${message.content}`);
-    logMessage(`Pesan dari ${message.author.username}: ${message.content}`);
-
-    const userId = message.author.id;
-    const response = getBotResponse(userId, message.content);
+  if (message.author.bot) return; // Ignore bot sendiri
+  if (message.content.startsWith('!chat')) { // Prefix untuk trigger bot, misalnya !chat Hello
+    const userInput = message.content.slice(5).trim();
+    const response = getResponse(userInput);
     message.reply(response);
-
-    console.log(`Bot menjawab: ${response}`);
-    logMessage(`Bot menjawab: ${response}`);
+  }
 });
 
-function logMessage(message) {
-    const timestamp = new Date().toISOString();
-    fs.appendFile(LOG_FILE, `[${timestamp}] ${message}\n`, (err) => {
-        if (err) console.error('Gagal menulis ke log:', err);
-    });
-}
-
-client.login(TOKEN);
+client.login(process.env.DISCORD_TOKEN);
