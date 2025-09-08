@@ -1,86 +1,24 @@
-[2025-09-05T07:55:08.799Z] Bot Discord siap!
-[2025-09-05T08:05:26.597Z] Bot Discord siap!
-[2025-09-05T08:05:36.687Z] Pesan dari _ruinn: !tambah Pemrograman_Web Senin 09:00 Ruang_301
-[2025-09-05T08:05:36.693Z] Bot menjawab: Jadwal pemrograman_web berhasil ditambahkan!
-[2025-09-05T08:05:53.937Z] Pesan dari _ruinn: !jadwal
-[2025-09-05T08:05:53.941Z] Bot menjawab: Berikut daftar jadwal yang ada:
-- **pemrograman_web**: Hari senin, Jam 09:00 di ruang_301
-
-[2025-09-05T08:08:26.240Z] Pesan dari _ruinn: Apakah saya ada kelas Pemrograman Web?
-[2025-09-05T08:08:26.243Z] Bot menjawab: Halo! 👋 Ada yang bisa saya bantu terkait jadwal kuliah?
-[2025-09-05T08:08:41.462Z] Pesan dari _ruinn: Apakah saya ada kelas?
-[2025-09-05T08:08:41.466Z] Bot menjawab: Halo! 👋 Ada yang bisa saya bantu terkait jadwal kuliah?
-[2025-09-05T08:09:00.200Z] Pesan dari _ruinn: Jam berapa?
-[2025-09-05T08:09:00.201Z] Bot menjawab: Halo! 👋 Ada yang bisa saya bantu terkait jadwal kuliah?
-[2025-09-05T08:09:17.814Z] Pesan dari _ruinn: Hai!
-[2025-09-05T08:09:17.816Z] Bot menjawab: Halo! 👋 Ada yang bisa saya bantu terkait jadwal kuliah?
-[2025-09-05T08:09:29.924Z] Pesan dari _ruinn: Apa kabar bot?
-[2025-09-05T08:09:29.925Z] Bot menjawab: Halo! 👋 Ada yang bisa saya bantu terkait jadwal kuliah?
-[2025-09-05T08:10:35.463Z] Pesan dari _ruinn: !tambah Pengujian_Perangkat_Lunak Selasa 12:00 Ruang_ABC
-[2025-09-05T08:10:35.468Z] Bot menjawab: Jadwal pengujian_perangkat_lunak berhasil ditambahkan!
-[2025-09-05T08:10:44.138Z] Pesan dari _ruinn: !jadwal
-[2025-09-05T08:10:44.141Z] Bot menjawab: Berikut daftar jadwal yang ada:
-- **pemrograman_web**: Hari senin, Jam 09:00 di ruang_301
-- **pengujian_perangkat_lunak**: Hari selasa, Jam 12:00 di ruang_abc
-
-[2025-09-05T08:18:34.678Z] Bot Discord siap!
-[2025-09-05T08:18:39.997Z] Pesan dari _ruinn: siapa kamu?
-[2025-09-05T08:18:39.999Z] Bot menjawab: Saya adalah Chatbot Jadwal Kuliah.
-[2025-09-05T08:18:53.812Z] Pesan dari _ruinn: apakah saya ada kelas?
-[2025-09-05T08:18:53.812Z] Bot menjawab: Halo! 👋 Ada yang bisa saya bantu terkait jadwal kuliah?
-[2025-09-05T08:18:58.248Z] Pesan dari _ruinn: jadwal
-[2025-09-05T08:18:58.249Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:19:02.913Z] Pesan dari _ruinn: !help
-[2025-09-05T08:19:02.914Z] Bot menjawab: Perintah yang tersedia:
-`!tambah [mata kuliah] [hari] [jam] [lokasi]` - Menambahkan jadwal baru.
-`!jadwal` - Menampilkan semua jadwal yang tersimpan.
-Anda juga bisa bertanya langsung, misal: `Apakah saya ada jadwal algoritma?`
-[2025-09-05T08:19:32.081Z] Pesan dari _ruinn: Apakah saya ada jadwal Pemrograman Web?
-[2025-09-05T08:19:32.084Z] Bot menjawab: Halo! 👋 Ada yang bisa saya bantu terkait jadwal kuliah?
-[2025-09-05T08:19:40.305Z] Pesan dari _ruinn: Apakah saya ada jadwal Pemrograman_Web?
-[2025-09-05T08:19:40.307Z] Bot menjawab: Halo! 👋 Ada yang bisa saya bantu terkait jadwal kuliah?
-[2025-09-05T08:31:15.626Z] Bot Discord siap!
-[2025-09-05T08:31:29.444Z] Pesan dari _ruinn: Apakah saya ada jadwal Pemrograman Web?
-[2025-09-05T08:31:29.447Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:32:13.473Z] Pesan dari _ruinn: halo!
-[2025-09-05T08:32:13.475Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:32:17.413Z] Pesan dari _ruinn: Halo!
-[2025-09-05T08:32:17.416Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:33:03.099Z] Pesan dari _ruinn: Halo
-[2025-09-05T08:33:03.102Z] Bot menjawab: Halo! 👋 Ada yang bisa saya bantu terkait jadwal kuliah?
-[2025-09-05T08:33:18.500Z] Pesan dari _ruinn: !tambah Komputasi_Awan Rabu 14:00 Lab_1
-[2025-09-05T08:33:18.503Z] Bot menjawab: Jadwal komputasi_awan berhasil ditambahkan!
-[2025-09-05T08:33:29.814Z] Pesan dari _ruinn: !jadwal
-[2025-09-05T08:33:29.814Z] Bot menjawab: Berikut daftar jadwal yang ada:
-- **pemrograman_web**: Hari senin, Jam 09:00 di ruang_301
-- **pengujian_perangkat_lunak**: Hari selasa, Jam 12:00 di ruang_abc
-- **komputasi_awan**: Hari rabu, Jam 14:00 di lab_1
-
-[2025-09-05T08:33:44.302Z] Pesan dari _ruinn: Apakah saya ada jadwal Komputasi Awan?
-[2025-09-05T08:33:44.304Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:33:58.079Z] Pesan dari _ruinn: apakah saya ada jadwal komputasi_awan?
-[2025-09-05T08:33:58.080Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:34:04.987Z] Pesan dari _ruinn: apakah saya ada jadwal
-[2025-09-05T08:34:04.989Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:34:10.620Z] Pesan dari _ruinn: komputasi awan
-[2025-09-05T08:34:10.622Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:34:28.167Z] Pesan dari _ruinn: Di mana?
-[2025-09-05T08:34:28.168Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:34:32.342Z] Pesan dari _ruinn: !help
-[2025-09-05T08:34:32.343Z] Bot menjawab: Perintah yang tersedia:
-`!tambah [mata kuliah] [hari] [jam] [lokasi]` - Menambahkan jadwal baru.
-`!jadwal` - Menampilkan semua jadwal yang tersimpan.
-Anda juga bisa bertanya langsung, misal: `Apakah saya ada jadwal algoritma?`
-[2025-09-05T08:34:37.453Z] Pesan dari _ruinn: Anda juga bisa bertanya langsung, misal: Apakah saya ada jadwal algoritma?
-[2025-09-05T08:34:37.453Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:34:46.052Z] Pesan dari _ruinn: Apakah saya ada jadwal algoritma?
-[2025-09-05T08:34:46.054Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:40:36.687Z] Bot Discord siap!
-[2025-09-05T08:41:06.071Z] Pesan dari _ruinn: apakah saya ada jadwal komputasi_awan?
-[2025-09-05T08:41:06.074Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:41:08.730Z] Pesan dari _ruinn: apakah saya ada jadwal komputasi_awan?
-[2025-09-05T08:41:08.732Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:41:19.273Z] Pesan dari _ruinn: apakah saya ada jadwal komputasi awan?
-[2025-09-05T08:41:19.274Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
-[2025-09-05T08:41:36.070Z] Pesan dari _ruinn: Apakah saya ada jadwal Komputasi Awan?
-[2025-09-05T08:41:36.071Z] Bot menjawab: Maaf, saya tidak mengerti. Coba gunakan perintah `!help` untuk bantuan.
+2025-09-08T04:51:39.344Z - Processing message: I feel sad
+2025-09-08T04:51:39.353Z - Reflecting input: sad
+2025-09-08T04:51:39.353Z - Reflected output: sad
+2025-09-08T04:51:39.354Z - Reflecting input: sad
+2025-09-08T04:51:39.354Z - Reflected output: sad
+2025-09-08T04:51:39.354Z - Matched rule: /I feel (.+)/i, Response: Why do you feel sad?,What makes you feel sad?
+2025-09-08T04:57:38.693Z - Processing message: Hello
+2025-09-08T04:57:38.695Z - Matched rule: /hello|hi|hey/i, Response: Hello! How can I help you today?,Hi there! What's on your mind?
+2025-09-08T04:57:51.001Z - Processing message: i feel sad because my job is hard
+2025-09-08T04:57:51.003Z - Reflecting input: sad because my job is hard
+2025-09-08T04:57:51.003Z - Reflected output: sad because your job is hard
+2025-09-08T04:57:51.003Z - Reflecting input: sad because my job is hard
+2025-09-08T04:57:51.004Z - Reflected output: sad because your job is hard
+2025-09-08T04:57:51.004Z - Matched rule: /I feel (.+)/i, Response: Why do you feel sad because your job is hard?,What makes you feel sad because your job is hard?
+2025-09-08T04:58:01.760Z - Processing message: yes
+2025-09-08T04:58:01.761Z - Matched rule: /Yes|No/i, Response: Interesting. Why?,Can you elaborate?
+2025-09-08T04:58:09.546Z - Processing message: because i work too much
+2025-09-08T04:58:09.548Z - Reflecting input: i work too much
+2025-09-08T04:58:09.548Z - Reflected output: you work too much
+2025-09-08T04:58:09.548Z - Matched rule: /Because (.+)/i, Response: Is that the real reason for you work too much?,What other reasons might there be?
+2025-09-08T04:58:16.203Z - Processing message: i think there are none
+2025-09-08T04:58:16.204Z - Matched rule: /hello|hi|hey/i, Response: Hello! How can I help you today?,Hi there! What's on your mind?
+2025-09-08T04:58:21.223Z - Processing message: bye
+2025-09-08T04:58:21.224Z - Matched rule: /bye|goodbye/i, Response: Goodbye! Take care.,See you later!

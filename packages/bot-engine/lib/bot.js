@@ -1,4 +1,12 @@
 // Core bot logic: Rule-based with regex and pronoun reflection
+const fs = require('fs');
+
+function logToFile(message) {
+  const logEntry = `${new Date().toISOString()} - ${message}\n`;
+  fs.appendFileSync('logs/bot.log', logEntry, (err) => {
+    if (err) console.error('Error writing to log file:', err);
+  });
+}
 
 const reflections = {
   'i': 'you',
@@ -11,12 +19,14 @@ const reflections = {
   'i\'ve': 'you\'ve',
   'i\'ll': 'you\'ll',
   'myself': 'yourself',
-  // Tambah lebih banyak jika perlu
 };
 
 function reflect(text) {
+  logToFile(`Reflecting input: ${text}`);
   const words = text.toLowerCase().split(' ');
-  return words.map(word => reflections[word] || word).join(' ');
+  const reflected = words.map(word => reflections[word] || word).join(' ');
+  logToFile(`Reflected output: ${reflected}`);
+  return reflected;
 }
 
 const rules = [
@@ -55,6 +65,7 @@ const rules = [
 ];
 
 function getResponse(message) {
+  logToFile(`Processing message: ${message}`);
   for (const rule of rules) {
     const match = message.match(rule.pattern);
     if (match) {
@@ -62,11 +73,12 @@ function getResponse(message) {
       if (typeof responses === 'function') {
         responses = responses(match);
       }
+      logToFile(`Matched rule: ${rule.pattern}, Response: ${responses}`);
       return responses[Math.floor(Math.random() * responses.length)];
     }
   }
-  // Fallback
+  logToFile(`No match found for: ${message}, using fallback`);
   return 'Tell me more about that.';
 }
 
-module.exports = { getResponse };
+module.exports = { getResponse, reflect };
