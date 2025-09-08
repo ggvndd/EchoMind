@@ -1,4 +1,4 @@
-# Rule-Based Chatbot with Pronoun Reflection
+# EchoMind, a Rule-Based Chatbot with Pronoun Reflection
 
 Chatbot sederhana berbasis aturan (regex) yang merefleksikan kata ganti untuk simulasi percakapan terapeutik, terintegrasi dengan Discord.
 
@@ -36,18 +36,20 @@ node apps/discord-bot/index.js
 ```
 
 Kemudian, akses [link](https://discord.com/oauth2/authorize?client_id=1413427196151988285&permissions=67584&integration_type=0&scope=bot) ini untuk menambahkan bot pada server yang anda inginkan
-Bot akan aktif di Discord. Kemudian, gunakan prefix `!chat` (misalnya: `!chat I feel sad`) untuk trigger.
+Bot akan aktif di Discord. Kemudian, gunakan prefix `!chat` (misalnya: `!chat I feel sad`) untuk trigger percakapan yang anda inginkan.
 
-## Demo
+## Contoh Pengunaan dan Demo
+Watch EchoMind in action!
+![EchoMind Chatbot Demo](demonstration.gif)
 Contoh percakapan di Discord:
 - User: `!chat Hello` → Bot: `Hi there! What's on your mind?`
 - User: `!chat I feel sad because my job is hard` → Bot: `Why do you feel sad because your job is hard?`
 
-Rekam dengan tool seperti ScreenToGif untuk GIF demo.
 
 ## Tests
-Unit/functional tests ada di `tests/bot.test.js`. Install `jest` (`npm install --save-dev jest`) dan jalankan:
+Unit/functional tests ada di `tests/bot.test.js`. Install `jest` (`npm install --save-dev jest`) pada root folder dan jalankan:
 ```
 npm test
 ```
-Minimal 6 kasus uji (3 refleksi kata ganti, 3 respons bot).
+
+![Test Case yang telah berhasil dilakukan](screenshoots/successtests.png)
